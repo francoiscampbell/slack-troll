@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+curl -F token=$SLACK_TOKEN -F image=@./photos/$(date '+%-j').png https://slack.com/api/users.setPhoto
